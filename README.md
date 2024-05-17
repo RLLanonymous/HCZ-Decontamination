@@ -2,7 +2,7 @@
 
 ###
 
-<h3 align="left">SCP - HCZ Decontamination Process ( P-B-5 Protocol) </h3>
+<h3 align="left">SCP - HCZ Decontamination Process (P-B-5 Protocol) </h3>
 
 ###
 
