@@ -1,32 +1,42 @@
 !-- ENABLE
+# Le Rôle Néccessaire + La Salle Requis Pour La Commande Désigner Dans Les Config Du Serveur.
 IF {SHOW:SENDER:ROLE} = NtfCaptain AND {SHOW:SENDER:ROOM} = HczServers
+# Le Message Cassie + Les Subtitles Dit Quand il reste 5 minutes.
 CASSIE Light Containment Zone And Heavy Containment Zone Overall Decontamination In Tminus 5 Minutes yield_01 Please Evacuate To Entrance Zone Immediately|La Zone De Confinement Léger Et La Zone De Confinement Lourd Seront Décontaminés Dans <color=#CD0000>5 Minutes.</color> Merci De Vous Rendre En Zone D'Entrée Immédiatement!
+# Le Temps Du Blackout.
 LIGHTSOFF ALL 5 
 WAITUNTIL {!CASSIESPEAKING}
+# Les Couleurs Des Lumière En LCZ HCZ , Format : Red Green Blue (par défaut les lumières sont bleu.)
 LIGHTCOLOR LightContainment 000 102 204
 LIGHTCOLOR HeavyContainment 000 102 204
 WAITSEC 120
+# Le Message Cassie + Les Subtitles Dit Quand Il reste 3 minutes.
 CASSIE Light Containment Zone And Heavy Containment Zone Overall Decontamination In Tminus 3 Minutes|La Zone De Confinement Léger Et La Zone De Confinement Lourd Seront Décontaminés Dans <color=#CD0000>3 Minutes.</color>
 WAITUNTIL {!CASSIESPEAKING}
 WAITSEC 120
+# Le Message Cassie + Les Subtitles Dit Quand il reste 1 minute.
 CASSIE Light Containment Zone And Heavy Containment Zone Overall Decontamination In Tminus 1 Minutes|La Zone De Confinement Léger Et La Zone De Confinement Lourd Seront Décontaminés Dans <color=#CD0000>1 Minute.</color>
 WAITUNTIL {!CASSIESPEAKING}
 WAITSEC 30
+# Le Message Cassie + Les Subtitles Dit Quand il reste 30 secondes.
 CASSIE Light Containment Zone And Heavy Containment Zone Overall Decontamination In Tminus 30 Seconds All Checkpoints Doors Have Been Open Please Evacuate To Entrance Zone Immediately |La Zone De Confinement Léger Et La Zone De Confinement Lourd Seront Décontaminés Dans <color=#CD0000>30 Secondes.</color> Les Checkpoints On été ouvert , Merci De Vous Rendre En Zone D'Entrée Immédiatement!
 WAITSEC 10
+# Portes Dites : "Emergency Exit" Ouverte Lors Des 30 Secondes. 
 DOOR open CheckpointEzHczA
 DOOR open CheckpointEzHczB
 DOOR open CheckpointLczA
 DOOR open CheckpointLczB
 WAITSEC 30
+# Le Message Cassie + Les Subtitles Dit Quand la décontamination est prête.
 CASSIE .G3 Light Containment Zone And Heavy Containment Zone Are Lockdown And Ready For Decontamination yield_02 Sequence P B 5 Has Been SUCCESSFULLY Engaged|La Décontamination De La Zone De Confinement Léger Et Lourd Est Maintenant Initié , <color=#CD0000>Protocole P-B-5</color> Inité Avec Succès.
+# Le Temps Du Blackout.
 LIGHTSOFF ALL 10
+# Les Portes Fermés lors de la déconta , close = fermer , lock = verouiller.
 DOOR close HeavyContainment
 DOOR lock HeavyContainment
 DOOR close LightContainment
 DOOR lock LightContainment
 EFFECT Give {LCZ} Decontaminating
 EFFECT Give {HCZ} Decontaminating
+# MER Commande Pour Spawn Les Blastdoors , mettre le nom de la map après la commandes /load !
 COMMAND /mp load blastdoors_map
-
-
