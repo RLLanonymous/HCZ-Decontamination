@@ -13,19 +13,20 @@ CASSIE Light Containment Zone And Heavy Containment Zone Overall Decontamination
 WAITUNTIL {!CASSIESPEAKING}
 WAITSEC 30
 CASSIE Light Containment Zone And Heavy Containment Zone Overall Decontamination In Tminus 30 Seconds All Checkpoints Doors Have Been Open Please Evacuate To Entrance Zone Immediately |La Zone De Confinement Léger Et La Zone De Confinement Lourd Seront Décontaminés Dans <color=#CD0000>30 Secondes.</color> Les Checkpoints On été ouvert , Merci De Vous Rendre En Zone D'Entrée Immédiatement!
-WAITSEC 6
+WAITSEC 10
 DOOR open CheckpointEzHczA
 DOOR open CheckpointEzHczB
 DOOR open CheckpointLczA
 DOOR open CheckpointLczB
 WAITSEC 30
-CASSIE .G3 Light Containment Zone And Heavy Containment Zone Are Lockdown And Ready For Decontamination yield_02 Sequence P B 5 Has Been SUCCESSFULLY Engaged|La Décontamination De La Zone De Confinement Léger Et Lourd Est Maintenant Initié , <color=#CD0000>Protocole P-B-5</color> Engager Avec Succès!
+CASSIE .G3 Light Containment Zone And Heavy Containment Zone Are Lockdown And Ready For Decontamination yield_02 Sequence P B 5 Has Been SUCCESSFULLY Engaged|La Décontamination De La Zone De Confinement Léger Et Lourd Est Maintenant Initié , <color=#CD0000>Protocole P-B-5</color> Inité Avec Succès.
 LIGHTSOFF ALL 10
-DOOR close CheckpointEzHczA
-DOOR close CheckpointEzHczB
-DOOR close CheckpointLczA
-DOOR close CheckpointLczB
-DOOR lock CheckpointEzHczA
-DOOR lock CheckpointEzHczB
-DOOR lock CheckpointLczA
-DOOR lock CheckpointLczB
+DOOR close HeavyContainment
+DOOR lock HeavyContainment
+DOOR close LightContainment
+DOOR lock LightContainment
+EFFECT Give {LCZ} Decontaminating
+EFFECT Give {HCZ} Decontaminating
+COMMAND /mp load blastdoors_map
+
+
