@@ -1,0 +1,555 @@
+{
+  "RootObjectId": -51008,
+  "Blocks": [
+    {
+      "Name": "Blastdoor",
+      "ObjectId": -27344,
+      "ParentId": -51008,
+      "Position": {
+        "x": 4.52685547,
+        "y": 7.474331,
+        "z": 51.95261
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.153500959,
+        "y": 2.387428,
+        "z": 0.3560627
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "070707FF"
+      }
+    },
+    {
+      "Name": "Blastdoor",
+      "ObjectId": -27488,
+      "ParentId": -51008,
+      "Position": {
+        "x": 3.679306,
+        "y": 8.700031,
+        "z": 51.95261
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": 0.17733933,
+        "y": 1.84784579,
+        "z": 0.3560627
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "070707FF"
+      }
+    },
+    {
+      "Name": "Blastdoor (1)",
+      "ObjectId": -29088,
+      "ParentId": -51008,
+      "Position": {
+        "x": 4.11865234,
+        "y": 7.459531,
+        "z": 51.96061
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.229141921,
+        "y": 2.357824,
+        "z": 0.6772101
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "070707FF"
+      }
+    },
+    {
+      "Name": "Blastdoor (2)",
+      "ObjectId": -30402,
+      "ParentId": -51008,
+      "Position": {
+        "x": 3.75915527,
+        "y": 8.374631,
+        "z": 51.96061
+      },
+      "Rotation": {
+        "x": 49.66995,
+        "y": 89.99999,
+        "z": -1.055361E-05
+      },
+      "Scale": {
+        "x": 0.229141921,
+        "y": 0.28619343,
+        "z": 0.2010079
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "070707FF"
+      }
+    },
+    {
+      "Name": "Blastdoor (3)",
+      "ObjectId": -30968,
+      "ParentId": -51008,
+      "Position": {
+        "x": 3.68415833,
+        "y": 8.21483,
+        "z": 51.96061
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.229141921,
+        "y": 0.28619343,
+        "z": 0.201007918
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "070707FF"
+      }
+    },
+    {
+      "Name": "Blastdoor (4)",
+      "ObjectId": -31498,
+      "ParentId": -51008,
+      "Position": {
+        "x": 3.75715637,
+        "y": 8.056631,
+        "z": 51.96061
+      },
+      "Rotation": {
+        "x": 310.33,
+        "y": 90.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.229141921,
+        "y": 0.28619346,
+        "z": 0.201007888
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "070707FF"
+      }
+    },
+    {
+      "Name": "Blastdoor (5)",
+      "ObjectId": -32946,
+      "ParentId": -51008,
+      "Position": {
+        "x": 3.75915527,
+        "y": 7.577631,
+        "z": 51.96061
+      },
+      "Rotation": {
+        "x": 49.66995,
+        "y": 89.99999,
+        "z": -1.055361E-05
+      },
+      "Scale": {
+        "x": 0.229141921,
+        "y": 0.28619343,
+        "z": 0.2010079
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "070707FF"
+      }
+    },
+    {
+      "Name": "Blastdoor (6)",
+      "ObjectId": -32940,
+      "ParentId": -51008,
+      "Position": {
+        "x": 3.68415833,
+        "y": 7.417831,
+        "z": 51.96061
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.229141921,
+        "y": 0.28619343,
+        "z": 0.201007918
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "070707FF"
+      }
+    },
+    {
+      "Name": "Blastdoor (7)",
+      "ObjectId": -32930,
+      "ParentId": -51008,
+      "Position": {
+        "x": 3.75715637,
+        "y": 7.259631,
+        "z": 51.96061
+      },
+      "Rotation": {
+        "x": 310.33,
+        "y": 90.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.229141921,
+        "y": 0.28619346,
+        "z": 0.201007888
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "070707FF"
+      }
+    },
+    {
+      "Name": "Blastdoor (10)",
+      "ObjectId": -33390,
+      "ParentId": -51008,
+      "Position": {
+        "x": 3.75715637,
+        "y": 6.539631,
+        "z": 51.96061
+      },
+      "Rotation": {
+        "x": 310.33,
+        "y": 90.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.229141921,
+        "y": 0.28619346,
+        "z": 0.201007888
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "070707FF"
+      }
+    },
+    {
+      "Name": "Blastdoor (9)",
+      "ObjectId": -33380,
+      "ParentId": -51008,
+      "Position": {
+        "x": 3.68415833,
+        "y": 6.697831,
+        "z": 51.96061
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.229141921,
+        "y": 0.28619343,
+        "z": 0.201007918
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "070707FF"
+      }
+    },
+    {
+      "Name": "Blastdoor (8)",
+      "ObjectId": -33374,
+      "ParentId": -51008,
+      "Position": {
+        "x": 3.75915527,
+        "y": 6.85763073,
+        "z": 51.96061
+      },
+      "Rotation": {
+        "x": 49.66995,
+        "y": 89.99999,
+        "z": -1.055361E-05
+      },
+      "Scale": {
+        "x": 0.229141921,
+        "y": 0.28619343,
+        "z": 0.2010079
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "070707FF"
+      }
+    },
+    {
+      "Name": "Blastdoor (11)",
+      "ObjectId": -36282,
+      "ParentId": -51008,
+      "Position": {
+        "x": 3.24725342,
+        "y": 7.459531,
+        "z": 51.96261
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.2641548,
+        "y": 2.357824,
+        "z": 0.673895538
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Blastdoor (12)",
+      "ObjectId": -36834,
+      "ParentId": -51008,
+      "Position": {
+        "x": 3.67884827,
+        "y": 7.815631,
+        "z": 51.96261
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.2641548,
+        "y": 0.188263714,
+        "z": 0.201007918
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Blastdoor (13)",
+      "ObjectId": -38096,
+      "ParentId": -51008,
+      "Position": {
+        "x": 3.60765076,
+        "y": 7.919331,
+        "z": 51.96261
+      },
+      "Rotation": {
+        "x": 311.0,
+        "y": 90.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.2641548,
+        "y": 0.272070616,
+        "z": 0.2010079
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Blastdoor (14)",
+      "ObjectId": -40004,
+      "ParentId": -51008,
+      "Position": {
+        "x": 3.61265564,
+        "y": 7.714831,
+        "z": 51.96261
+      },
+      "Rotation": {
+        "x": 49.0000076,
+        "y": 90.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.2641548,
+        "y": 0.254612625,
+        "z": 0.201007918
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Blastdoor (16)",
+      "ObjectId": -44046,
+      "ParentId": -51008,
+      "Position": {
+        "x": 3.67785645,
+        "y": 8.563731,
+        "z": 51.96261
+      },
+      "Rotation": {
+        "x": 49.0000076,
+        "y": 90.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.2641548,
+        "y": 0.426715881,
+        "z": 0.216902122
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Blastdoor (17)",
+      "ObjectId": -47338,
+      "ParentId": -51008,
+      "Position": {
+        "x": 3.67884827,
+        "y": 7.042631,
+        "z": 51.96261
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.2641548,
+        "y": 0.188263714,
+        "z": 0.201007918
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Blastdoor (18)",
+      "ObjectId": -47332,
+      "ParentId": -51008,
+      "Position": {
+        "x": 3.60765076,
+        "y": 7.146331,
+        "z": 51.96261
+      },
+      "Rotation": {
+        "x": 311.0,
+        "y": 90.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.2641548,
+        "y": 0.272070616,
+        "z": 0.2010079
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Blastdoor (19)",
+      "ObjectId": -47318,
+      "ParentId": -51008,
+      "Position": {
+        "x": 3.61265564,
+        "y": 6.941831,
+        "z": 51.96261
+      },
+      "Rotation": {
+        "x": 49.0000076,
+        "y": 90.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.2641548,
+        "y": 0.254612625,
+        "z": 0.201007918
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Blastdoor (21)",
+      "ObjectId": -47572,
+      "ParentId": -51008,
+      "Position": {
+        "x": 3.65574646,
+        "y": 6.366831,
+        "z": 51.96261
+      },
+      "Rotation": {
+        "x": 311.0,
+        "y": 90.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.2641548,
+        "y": 0.3903125,
+        "z": 0.2010079
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Blastdoor (15)",
+      "ObjectId": -49536,
+      "ParentId": -51008,
+      "Position": {
+        "x": 2.8331604,
+        "y": 7.474331,
+        "z": 51.95261
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.153500959,
+        "y": 2.387428,
+        "z": 0.3560627
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "070707FF"
+      }
+    }
+  ]
+}
